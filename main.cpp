@@ -3,13 +3,16 @@
 
 the main control system for flyer bot 
 
-this program will have comments to represent yet to be defined inputs and potentaily functions.
+will need to split this between a python-based main control program and c++ moter controler.
+
+this program will have comments to represent yet to be defined inputs and functions.
 
 */
 
 // Header Files
 #pragma once
-#include "Objects.h"
+#include "Object.h"
+#include <thread>
 
 int main()
 {
@@ -21,5 +24,12 @@ int main()
 
 
     // main loop
+
+    while(isRunning)
+    {
+
+
+
+    }
 
 }
