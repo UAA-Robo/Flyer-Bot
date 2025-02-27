@@ -1,11 +1,11 @@
 /*
-
-Header file for the different programs that will control flyer bot.
-
-Might be split into multiple header files or removed at a latter date if this becomes redundant.
-
-Each speed and time function perameters are placeholders for a TBD unit of mesurment.
-
+	_____________________________________________________________________________________________________
+	|Header file for the different programs that will control flyer bot.								|
+	|																									|
+	|Might be split into multiple header files or removed at a latter date if this becomes redundant.	|
+	|																									|
+	|Each speed and time function perameters are placeholders for a TBD unit of mesurment.				|
+	|___________________________________________________________________________________________________|
 */
 
 

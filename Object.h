@@ -35,9 +35,10 @@ protected:
     void setHeight(int newHeight);
 
 public:
-    // constructor and deconstructor
+    // constructors and deconstructor
     Object(std::string name, int posX, int posY, int height, int width);
     Object(std::string name);
+    Object(const Object &origonal);
     ~Object();
 
     // getter functions

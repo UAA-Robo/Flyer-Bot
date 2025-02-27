@@ -24,14 +24,24 @@ Object::Object(std::string name, int posX, int posY, int height, int width)
 
 /*
 
-
+    basic constructer
 
 */
 Object::Object(std::string name)
 {
 
+    if (name = human)
+        canFollow = true;
 
+}
 
+/*
+
+the copy constructer
+
+*/
+Object::Object(const Object& origonal)
+{
 }
         
 Object::~Object()

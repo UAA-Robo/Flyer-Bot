@@ -59,9 +59,9 @@ setDrive(int, int, int) commands each wheels to move at a unique inputed streang
 A steangth of 127 is full forward drive, 0 is no drive or stop, and -128 is full reverse drive. 
 Values above 127 or below -128 are automatically adjusted to fit within those bounds.
 
-mPowLeft is the front left moter.
-mPowRight is the front right moter.
-mPowBack is the back center moter.
+mPowLeft is the front left moter.   (ID: 0)
+mPowRight is the front right moter. (ID: 1)
+mPowBack is the back center moter.  (ID: 2)
 */
 void setDrive(signed char mPowLeft, signed char mPowRight, signed char mPowBack)
 {
