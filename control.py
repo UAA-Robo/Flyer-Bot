@@ -31,9 +31,13 @@ while(is_on):
 
         # idle loop
 
+            # SETUP:
+            
             # move to a wall and face cammera into the room.
 
             # slow camera fps and initiate other low power mode settings, wait for signs of a human
+
+            # MAIN LOOP:
 
             # exit loop if human is detected
         
