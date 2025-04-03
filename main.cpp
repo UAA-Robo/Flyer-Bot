@@ -19,7 +19,7 @@ note: 250 will be full throttle, 0 will be full stop.
 int main()
 {
 
-    // varibles
+    // - varibles -
 
     bool isRunning = true;
 
@@ -27,14 +27,19 @@ int main()
         // priority object list 
         // stationary object list
 
-    // main loops
+    // - setup thread proccesses -
+    proccesses[0] = new std::thread();
 
     // object update loop (thread)
-        
+
         // retreive object data from AI cammera
+
 
         // update object lists
             //iterate though each list, first updating objects, then adding new objects.
+
+
+    // - main loops -
 
     // primary loop
 
