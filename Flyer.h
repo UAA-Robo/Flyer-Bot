@@ -57,3 +57,8 @@ void getCurrTarget(); // could be removed if unnessasary.
 
 void updatePos(int x, int y); // updates the position of the bot
 void setFollow(Object target);
+
+
+// - thread functions -
+
+void updateObjectsThread(Object* priorityObjects, Object* stationaryObjects, bool* isRunning);

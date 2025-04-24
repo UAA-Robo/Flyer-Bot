@@ -84,3 +84,10 @@ void updatePos(int x, int y)
 void setFollow(Object target)
 {
 }
+
+void updateObjectsThread(Object* priorityObjects, Object* stationaryObjects, bool* isRunning)
+{
+
+
+
+}
